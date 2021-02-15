@@ -8,7 +8,8 @@ const getUsers = (e) => {
 
     console.log(userGender, userNumber);
     console.log('okok');
-    const url = 'https://randomuser.me/api/?results=7&gender=female';
+    const url = `https://randomuser.me/api/?results=${userNumber}&gender=${userGender}`;
+    console.log(url);
     fetch(url)
         .then((response) => {
             return response.json()
