@@ -1,1 +1,61 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.generator {
+  margin: 50px auto;
+  width: 60vw;
+  text-align: center;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.generator__select, .generator__number {
+  font-size: 22px;
+}
+
+.BtnInput {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 10px;
+}
+
+.usersResults {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  max-width: 70vw;
+  min-height: 70vh;
+  margin: 0 auto;
+  border: 1px solid brown;
+  background-color: burlywood;
+  padding: 15px;
+}
+
+.usersResults .item {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  background-color: #e9d0af;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.usersResults .item__name {
+  height: 20%;
+}
+
+.usersResults .item__img {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=main.css.map */
